@@ -1,25 +1,25 @@
 class Bang < Formula
   desc "Bang 프로그래밍 언어 컴파일러/런타임"
   homepage "https://github.com/knoxxr/bang"
-  version "0.19.0"
+  version "0.20.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/knoxxr/bang/releases/download/v0.19.0/bang-aarch64-apple-darwin.tar.xz"
-      sha256 "400a0f868c83475bcc302a52083b44273e545ab7b7ea4873046add51514899a5"
+      url "https://github.com/knoxxr/bang/releases/download/v0.20.0/bang-aarch64-apple-darwin.tar.xz"
+      sha256 "231b85b7ae76a61773179ca4843429bd711b2a0e5efa1b98ad3d73a06b8a3c77"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/knoxxr/bang/releases/download/v0.19.0/bang-x86_64-apple-darwin.tar.xz"
-      sha256 "a030d67182a260cc075ad1f75f93bb3b6ea9af2c658c38a070dd16d590ef885e"
+      url "https://github.com/knoxxr/bang/releases/download/v0.20.0/bang-x86_64-apple-darwin.tar.xz"
+      sha256 "d1f7aad378b3aeab322d30392597c17e7190190f9ed31abd8ce9879cdb9149d0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/knoxxr/bang/releases/download/v0.19.0/bang-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2c510f736b5c603c12617c14eea785913632aed4dd1d486bbde217933d4100a7"
+      url "https://github.com/knoxxr/bang/releases/download/v0.20.0/bang-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4dc7dee546dac63bdd0cb8a1b773a732be2c1ef5a57981256b8f078144efc79c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/knoxxr/bang/releases/download/v0.19.0/bang-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "396122abcc965da5f38bcda6e635ad64fbdf89c686be27edd4153e7e471736a0"
+      url "https://github.com/knoxxr/bang/releases/download/v0.20.0/bang-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f48ed02db24497129d8f626485823d1b2e3cca31187b5620e916d13a0f7b1ab5"
     end
   end
   license "MIT"
